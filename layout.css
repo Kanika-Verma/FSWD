@@ -1,0 +1,26 @@
+.container{
+    display:flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container div::-webkit-scrollbar{
+    display: none;
+}
+.container div{
+    width:150px;
+   height: 100px;
+   font-size: 1.2em;
+   overflow: auto;
+    background-color: rgb(102, 107, 25);
+    margin: 10px;
+    padding: 10px;
+}
+.center
+{ display: flex;
+    /* text-align: center; */
+    border: 5px rgb(136, 82, 82) solid;
+    justify-content: center;
+height: 50px;
+align-items: start;
+}
